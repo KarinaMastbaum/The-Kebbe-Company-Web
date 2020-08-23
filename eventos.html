@@ -10,8 +10,8 @@
     <meta name="keywords" content="Cocina, Comida Arabe, Medio oriente, eventos, reserva, Delivery"  />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/Logo-borde.png" rel="icon" />
+
 
     <!-- Google Fonts -->
     <link
@@ -188,6 +188,82 @@
     </main>
     <!-- End #main -->
 
+        <!-- ======= Event Section ======= -->
+    <div>
+        <section id="contact" class="section__contacto">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 class="section__contacto--uppercase">Eventos</h2>
+                    <p>Reservá tu evento con nosotros</p>
+                </div>
+            </div>
+
+            <div class="container" data-aos="fade-up">
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="info">
+
+                            <div class="email">
+                                <i class="icofont-envelope"></i>
+                                <h4>Email:</h4>
+                                <p><a href="mailto:thekebbecompany@gmail.com" target="_blank" style="font-size: 0.9em;">
+                                        thekebbecompany@gmail.com
+                                    </a></p>
+                                <!-- <p>thekebbecompany@gmail.com</p> -->
+                            </div>
+
+                            <div class="phone">
+                                <i class="icofont-phone"></i>
+                                <h4>Call:</h4>
+                                <p><a <a href="https://wa.me/5491161806109">11-6180-6109</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
+                                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                        data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+                                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="8" data-rule="required"
+                                    data-msg="Please write something for us" placeholder="Mensaje..."></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading">Cargando</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">
+                                    Tu mensaje ha sido enviado con éxito. Muchas gracias!
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit">Enviar Mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <!-- End Event Section -->
+
+
+
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="footer-top">
@@ -199,15 +275,13 @@
                             <p>
                                 Corrientes 5624
                                 <br /> Buenos Aires, Argentina<br /><br />
-                                <strong>Teléfono:</strong> 11-6180-6109<br />
-                                <strong>Email:</strong> thekebbecompany@gmail.com<br />
+                                <strong>Teléfono:</strong><a href="https://wa.me/5491161806109"> 11-6180-6109</a><br />
+                                <strong>Email:</strong><a href="mailto:thekebbecompany@gmail.com"
+                                    target="_blank"> thekebbecompany@gmail.com</a><br />
                             </p>
-                            <div class="social-links mt-3">
-                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            <div class="social-links mt-2">
+                                <a href="https://www.facebook.com/thekebbecompany" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="https://www.instagram.com/thekebbecompany" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -254,7 +328,7 @@
                             <!-- You can delete the links only if you purchased the pro version. -->
                             <!-- Licensing information: https://bootstrapmade.com/license/ -->
                             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
-                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            Designed by <a href="#">KarinaMastbaum</a>
                         </div>
                     </div>
                 </div>

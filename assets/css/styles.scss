@@ -941,6 +941,11 @@ section {
     margin-top: 200px;
 }
 
+.section-title h2 {
+    font-size: 30px;
+    font-family: "Allura", serif;
+}
+
 .menu #menu-flters {
     padding: 0;
     margin: 0 auto 0 auto;
@@ -953,7 +958,7 @@ section {
     cursor: pointer;
     display: inline-block;
     padding: 8px 12px 10px 12px;
-    font-size: 16px;
+    font-size: 60px;
     font-weight: 500;
     line-height: 1;
     color: #fff;
@@ -961,7 +966,7 @@ section {
     -webkit-transition: all ease-in-out 0.3s;
     transition: all ease-in-out 0.3s;
     border-radius: 50px;
-    font-family: "Playfair Display", serif;
+    font-family: "Allura", serif;
 }
 
 .menu #menu-flters li:hover,
@@ -978,8 +983,9 @@ section {
 }
 
 .menu .menu-img {
-    width: 100px;
-    border-radius: 50%;
+    margin-right: 20px;
+    width: 320px;
+    border-radius: 20%;
     float: left;
     border: 5px solid rgba(255, 255, 255, 0.2);
 }
@@ -1032,7 +1038,6 @@ section {
 }
 
 .menu .menu-ingredients {
-    margin-left: 85px;
     font-style: italic;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
@@ -1062,6 +1067,8 @@ section {
 
 .events .seccion__titulo h2 {
     color: #fff;
+    font-family: "Allura", serif;
+    font-size: 60px;
 }
 
 .seccion__parrafo--uppercase {
@@ -1307,7 +1314,6 @@ section {
 
 .section__contacto {
     margin-top: 200px;
-    ;
 }
 
 .section__contacto .info {
@@ -1516,7 +1522,7 @@ section {
     line-height: 1;
     font-weight: 300;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+    font-family: "Allura", sans-serif;
 }
 
 #footer .footer-top .footer-info p {
