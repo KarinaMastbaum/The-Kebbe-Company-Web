@@ -1,11 +1,3 @@
-/**
-* Template Name: Restaurantly - v1.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -199,16 +191,6 @@ h6 {
     border-bottom: 1px solid #37332a;
 }
 
-// #header .logo {
-//   font-size: 28px;
-//   margin: 0;
-//   padding: 0;
-//   line-height: 1;
-//   font-weight: 300;
-//   letter-spacing: 1px;
-//   text-transform: uppercase;
-//   font-family: "Poppins", sans-serif;
-// }
 #header .logo a {
     color: #fff;
 }
@@ -555,19 +537,25 @@ h6 {
 #hero h2 {
     color: #eee;
     margin-bottom: 10px 0 0 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #hero .btns {
     margin-top: 30px;
 }
 
+.btn-menu .animated .fadeInUp .scrollto {
+    margin-bottom: 30px;
+}
+
 #hero .btn-menu,
 #hero .btn-book {
+    margin: 5px;
     font-weight: 600;
     font-size: 13px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    text-align: center;
     display: inline-block;
     padding: 12px 30px;
     border-radius: 50px;
@@ -693,6 +681,12 @@ h6 {
     }
 }
 
+@media (min-width: 400px) {
+    #hero .btns {
+        margin-bottom: 10px;
+    }
+}
+
 @-webkit-keyframes pulsate-btn {
     0% {
         transform: scale(0.6, 0.6);
@@ -716,7 +710,6 @@ h6 {
         opacity: 0;
     }
 }
-
 
 /*--------------------------------------------------------------
   # Sections General
@@ -899,9 +892,19 @@ section {
     bottom: 10px;
 }
 
-.seccion__nosotros .content h3 {
+.seccion__nosotros .quienes_somos {
+    margin-top: 30px;
     font-weight: 600;
     font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 2.4;
+}
+
+
+.seccion__nosotros .content h3 {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "Allura", serif;
 }
 
 .seccion__nosotros .content ul {
@@ -923,13 +926,19 @@ section {
     margin-bottom: 0;
 }
 
-.seccion__conocenos--bold h3 {
-    font-weight: bold;
-}
-
 @media (min-width: 1024px) {
     .seccion__nosotros {
         background-attachment: fixed;
+    }
+}
+
+@media (min-width: 985px) {
+    .seccion__nosotros .quienes_somos {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 2;
     }
 }
 
@@ -1003,7 +1012,6 @@ section {
 }
 
 .menu .menu-content::after {
-    content: "......................................................................""....................................................................""....................................................................";
     position: absolute;
     left: 20px;
     right: 0;
@@ -1038,11 +1046,19 @@ section {
 }
 
 .menu .menu-ingredients {
+    margin-top: 10px;
     font-style: italic;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 456px) {
+    .menu .menu-img {
+        width: 130px;
+    }
+}
+
 
 /*--------------------------------------------------------------
   # Events
@@ -1147,11 +1163,6 @@ section {
 
 .events .owl-dot.active {
     background-color: #cda45e !important;
-}
-
-#evento .section__evento section {
-    margin: 0;
-    padding: 0;
 }
 
 @media (min-width: 992px) {
@@ -1539,7 +1550,7 @@ section {
 }
 
 .footer-info {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 #footer .footer-top .social-links a {
@@ -1663,4 +1674,20 @@ section {
 
 .footer__suscribete {
     margin-left: 100px;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer__suscribete {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer__menu {
+        margin-left: 20px;
+    }
+
+    .footer__suscribete {
+        margin-left: 20px;
+    }
 }
