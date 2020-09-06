@@ -1147,6 +1147,11 @@ section {
   background-color: #cda45e !important;
 }
 
+#evento .section__evento section {
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 992px) {
   .events .testimonial-item p {
     width: 80%;
